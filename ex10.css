@@ -1,0 +1,43 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+h1 {
+    color: white;
+}
+
+.articuno {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border: 2px solid rgb(4, 214, 214);
+    border-radius: 7px;
+}
+.articuno:hover {
+    background-color: rgba(54, 219, 211, 0.301);
+    border: 2px dashed rgb(4, 214, 214);
+}
+
+.zapdos {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 7px;
+}
+.zapdos:hover {
+    background-color: rgba(255, 217, 0, 0.301);
+    border: 2px dashed rgb(255, 196, 0);
+}
+
+.moltres {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    border: 2px solid rgb(255, 81, 0);
+    border-radius: 7px;
+}
+.moltres:hover {
+    background-color: rgba(255, 145, 0, 0.301);
+    border: 2px dashed rgb(255, 81, 0);
+}

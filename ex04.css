@@ -1,0 +1,43 @@
+.box {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+h1 {
+    color: white;
+}
+
+.machop {
+    padding: 10px;
+    border: 2px solid rgb(61, 127, 136);
+    border-radius: 7px;
+}
+.machop:hover {
+    background-color: rgba(117, 184, 189, 0.301);
+    border: 2px dashed rgb(61, 127, 136);
+}
+
+.geodude {
+    padding: 15px;
+    border: 2px solid rgb(129, 86, 4);
+    border-radius: 7px;
+}
+.geodude:hover {
+    background-color: rgba(138, 103, 29, 0.568);
+    border: 2px dashed rgb(129, 86, 4);
+}
+
+.onix {
+    padding: 15px;
+    border: 2px solid rgb(129, 86, 4);
+    border-radius: 7px;
+}
+.onix:hover {
+    background-color: rgba(138, 103, 29, 0.568);
+    border: 2px dashed rgb(129, 86, 4);
+}

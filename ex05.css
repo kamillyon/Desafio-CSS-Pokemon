@@ -1,0 +1,44 @@
+.box {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+h1 {
+    color: white;
+}
+
+.gengar {
+    padding: 10px;
+    border: 2px solid rgb(112, 61, 136);
+    border-radius: 7px;
+    align-self: flex-end;
+}
+.gengar:hover {
+    background-color: rgba(132, 34, 189, 0.301);
+    border: 2px dashed rgb(112, 61, 136);
+}
+
+.alakazam {
+    padding: 10px;
+    border: 2px solid rgb(129, 4, 21);
+    border-radius: 7px;
+}
+.alakazam:hover {
+    background-color: rgba(197, 78, 104, 0.568);
+    border: 2px dashed rgb(129, 4, 21);
+}
+
+.haunter {
+    padding: 31px;
+    border: 2px solid rgb(112, 61, 136);
+    border-radius: 7px;
+}
+.haunter:hover {
+    background-color: rgba(132, 34, 189, 0.301);
+    border: 2px dashed rgb(112, 61, 136);
+}

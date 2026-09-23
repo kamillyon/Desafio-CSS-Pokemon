@@ -1,0 +1,43 @@
+.box {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+h1 {
+    color: white;
+}
+
+.eevee {
+    padding: 15px;
+    border: 2px solid rgb(170, 168, 162);
+    border-radius: 7px;
+}
+.eevee:hover {
+    background-color: rgba(175, 174, 167, 0.301);
+    border: 2px dashed rgb(170, 168, 162);
+}
+
+.vulpix {
+        padding: 20px;
+    border: 2px solid rgb(255, 81, 0);
+    border-radius: 7px;
+}
+.vulpix:hover {
+    background-color: rgba(255, 145, 0, 0.301);
+    border: 2px dashed rgb(255, 81, 0);
+}
+
+.jigglypuff {
+    padding: 20px;
+    border: 2px solid rgb(228, 110, 192);
+    border-radius: 7px;
+}
+.jigglypuff:hover {
+    background-color: rgba(238, 172, 238, 0.301);
+    border: 2px dashed rgb(228, 110, 192);
+}

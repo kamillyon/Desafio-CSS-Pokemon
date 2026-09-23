@@ -1,0 +1,42 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+h1 {
+    color: white;
+}
+
+.charmander {
+    padding: 15px;
+    border: 2px solid rgb(255, 81, 0);
+    border-radius: 7px;
+}
+.charmander:hover {
+    background-color: rgba(255, 145, 0, 0.301);
+    border: 2px dashed rgb(255, 81, 0);
+}
+
+.squirtle {
+    padding: 15px;
+    border: 2px solid rgb(65, 195, 255);
+    border-radius: 7px;
+}
+.squirtle:hover {
+    background-color: rgba(91, 162, 255, 0.301);
+    border: 2px dashed rgb(65, 195, 255);
+}
+
+.bulbasaur {
+    padding: 20px;
+    border: 2px solid rgb(37, 184, 57);
+    border-radius: 7px;
+}
+.bulbasaur:hover {
+    background-color: rgba(74, 201, 57, 0.301);
+    border: 2px dashed rgb(37, 184, 57);
+}
